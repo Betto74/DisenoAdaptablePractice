@@ -80,6 +80,7 @@ fun ReplyDetailsScreen(
                             top = dimensionResource(R.dimen.topbar_padding_vertical)
                         )
                 )
+
                 ReplyEmailDetailsCard(
                     email = replyUiState.currentSelectedEmail,
                     mailboxType = replyUiState.currentMailbox,
